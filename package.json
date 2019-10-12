@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/Thebigbignooby/project-4321#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "@babel/runtime": "^7.6.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
