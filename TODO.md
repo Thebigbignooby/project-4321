@@ -1,7 +1,7 @@
 ## Initial Setup (includes TASK 4)
 
-- [ ] Hello world
-- [ ] Hello world with tests
+- [x] Hello world
+- [x] Hello world with unit test
 - [ ] Hello world with build step
 - [ ] Tests pass on Travis
 - [ ] Builds and deploys to heroku on master branch

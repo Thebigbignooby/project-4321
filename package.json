@@ -1,0 +1,36 @@
+{
+  "name": "project-4321",
+  "version": "0.0.1",
+  "description": "test for some company",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon --exec babel-node src/index.js",
+    "serve": "npm run build && npm run start",
+    "build": "babel src -d dist",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thebigbignooby/project-4321.git"
+  },
+  "author": "Rory Dent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thebigbignooby/project-4321/issues"
+  },
+  "homepage": "https://github.com/Thebigbignooby/project-4321#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/runtime": "^7.6.3",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.3"
+  }
+}
