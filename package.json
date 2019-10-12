@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "test for some company",
   "main": "index.js",
+  "engines": {
+    "node": "12.12.0"
+  },
   "scripts": {
     "test": "jest",
     "dev": "nodemon --exec babel-node src/index.js",
