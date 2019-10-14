@@ -13,8 +13,8 @@
 
 ## TASK 2 : `GET /players/<id>` endpoint
 
-- [ ] return single player matching `id`
-- [ ] return 404 if no player matches given `id`
+- [x] return single player matching `id`
+- [x] return 404 if no player matches given `id`
 
 ## TASK 3 : fetch json instead of using `require()`
 
