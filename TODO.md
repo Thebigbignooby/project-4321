@@ -8,8 +8,8 @@
 
 ## TASK 1 : `GET /players` endpoint
 
-- [ ] require(`headtohead.json`)
-- [ ] sort by player `id`
+- [x] require(`headtohead.json`)
+- [x] sort by player `id`
 
 ## TASK 2 : `GET /players/<id>` endpoint
 
