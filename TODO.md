@@ -2,9 +2,9 @@
 
 - [x] Hello world
 - [x] Hello world with unit test
-- [ ] Hello world with build step
+- [x] Hello world with build step
 - [x] Tests pass on Travis
-- [ ] Builds and deploys to heroku on master branch
+- [x] Builds and deploys to heroku on master branch
 
 ## TASK 1 : `GET /players` endpoint
 
