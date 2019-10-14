@@ -2,8 +2,8 @@
  * @jest-environment node
  */
 
-import data from 'data/players.json'
-import testData from 'data/players.test.json'
+import data from '../../data/players.json'
+import testData from '../../data/players.test.json'
 import { sortPlayersById } from './players.router'
 
 describe('sortPlayersById', () => {

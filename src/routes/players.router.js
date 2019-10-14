@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import data from 'data/players.json'
+import data from '../../data/players.json'
 
 /**
  * Functions
