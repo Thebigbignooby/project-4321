@@ -4,5 +4,15 @@
     "test": {
       "plugins": ["@babel/plugin-transform-runtime"]
     }
-  }
+  },
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ]
+      }
+    ]
+  ]
 }

@@ -1,8 +1,8 @@
 import express from 'express'
-import hello from './hello.world'
+import routes from './routes'
 
 const app = express()
 
-app.get('/', (req, res) => res.send(hello()))
+app.use('/', routes)
 
 export default app
